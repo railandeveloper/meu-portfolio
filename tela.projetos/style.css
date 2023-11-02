@@ -1,5 +1,5 @@
 body{
- background:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(62,53,55,1) 100%);
+  background:#181C23;
 }
 
 section.slider{
@@ -62,7 +62,7 @@ section.slider{
 }
 
 .nav__manual .manual__btn:hover{
-    background-color: blueviolet;
+    background-color:#A6F750B7;
 }
 
 #radio1:checked ~ .nav-auto .auto__btn1{/*quando radio 1 estiver marcado eu quero que aconteça algo com esse btn1*/

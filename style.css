@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Inter:wght@400;900&family=Open+Sans:ital,wght@1,300;1,400&family=Oswald&family=Roboto:wght@100;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Inter:wght@400;900&family=Lato&family=Montserrat:ital,wght@1,600&family=Open+Sans:ital,wght@1,300;1,400&family=Oswald&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+
 :root {
-  --cor-de-fundo:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(62,53,55,1) 100%);
+  --cor-de-fundo:#181C23;
   --font-principal: 'Inter', sans-serif;
   --font-secundaria:  Arial, Helvetica, sans-serif;
+  --font-terciaria:font-family: 'Ubuntu', sans-serif;
   --branco-principal: #FFFFFF;
-  --cor-fundo-botoes:blueviolet;
+  --cor-fundo-botoes:#A6F750B7;
   --cor-texto-botoes:black;
-  --cor-destaques:#0077B7;
+  --cor-destaques:#A6F750B7;
+  
 }
 
 
@@ -37,6 +41,7 @@ body{
 
 .lista__navegador:hover{
     background-color:var(--cor-fundo-botoes);
+    color: black;
     transition: 0.2s;
 }
 
@@ -109,6 +114,7 @@ body{
 .link__apresentacao:hover{
     background-color:var(--cor-fundo-botoes);
     transition: 0.2s;
+    color: black;
 }
 
 .imagem__apresentacao{
@@ -157,6 +163,7 @@ body{
 .link__tecnologias:hover {
    background-color:var(--cor-fundo-botoes);
    transition: 0.2;
+   color: black;
 }
 
 .imagem__tecnologias{
